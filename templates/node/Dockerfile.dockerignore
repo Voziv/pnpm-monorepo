@@ -1,0 +1,27 @@
+# Editor directories
+.idea
+
+# Tests & local development
+__tests__
+tests
+jest*
+.eslintrc.*
+.commitlintrc.*
+
+# Repo files to ignore
+.git
+.github
+.husky
+charts/
+docs/
+
+# Vendor files
+node_modules
+vendor
+
+# Build & runtime related
+dist
+*.log
+.env
+docker-compose.yml
+docker-compose.yaml
